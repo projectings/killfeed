@@ -17,5 +17,5 @@ $(function() {
     $(document).on("contextmenu", function(e) {
         e.preventDefault()
     });
-    window.setInterval(handleKillFeed, 450)// time between kills
+    window.setInterval(handleKillFeed, 1000)// time between kills
 }); 
