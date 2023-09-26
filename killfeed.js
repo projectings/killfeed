@@ -1,6 +1,6 @@
 $(function() {
     var tKillNames = ["spills"];//you can add or remove here more "teammates"
-    var ctKillNames = ["music", "egirls", "activision", "riot games", "crypto"]; //you can add here more "enemies"
+    var ctKillNames = ["music", "egirls", "activision", "riot games", "crypto",  "elmz" "nelly", "lourdes", "drain gang", "swegnesium", "her", "steam"]; //you can add here more "enemies"
     var weapons = ["ak47", "deagle", "awp" /*, "g3sg1", "m4a4"*/]; //you can add or remove here more images of weapons here
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
