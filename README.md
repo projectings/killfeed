@@ -1,2 +1,3 @@
-A csgo killfeed for biolinks or website development to be used in.
+killfeed made with javascript to be implemented into websites 
+
 @sobs.lol
