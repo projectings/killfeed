@@ -1,7 +1,7 @@
 $(function() {
-    var tKillNames = ["spills"];//you can add or remove here more "teammates"
-    var ctKillNames = ["cryptocurrency", "egirls", "activision", "riot games", "drain gang"]; //you can add here more "enemies"
-    var weapons = ["ak47", "deagle", "awp" /*, "g3sg1", "m4a4"*/]; //you can add or remove here more images of weapons here
+    var tKillNames = ["You"];//you can add or remove here more "teammates"
+    var ctKillNames = ["Enemies", "Discord"]; //you can add here more "enemies"
+    var weapons = ["ak47", "deagle", "awp" /*, "g3sg1", "m4a4"*/]; //you can add or remove here more images of weapons here by removing the "/"
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
 
@@ -17,5 +17,5 @@ $(function() {
     $(document).on("contextmenu", function(e) {
         e.preventDefault()
     });
-    window.setInterval(handleKillFeed, 500)// time between kills
+    window.setInterval(handleKillFeed, 500)// time between kills (smaller the value the faster the speed)
 }); 
