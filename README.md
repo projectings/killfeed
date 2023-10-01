@@ -1,3 +1,2 @@
-killfeed made with javascript to be implemented into websites 
+A csgo killfeed made with javascript to be implemented into websites such as biolinks
 
-@sobs.lol
