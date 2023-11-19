@@ -1,5 +1,5 @@
 html,body {
-	background:#3e3c3c;
+	background:#000000;
 }
 .multipoint {
 	display:none;
@@ -25,7 +25,7 @@ html,body {
 	display:inline-block;
 	float:right;
 	clear:both;
-	border:2px #800000 solid;
+	border:2px #000000 solid;
 	line-height:18px;
 	font-size:15px;
 	font-weight:normal;
